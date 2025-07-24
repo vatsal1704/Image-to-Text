@@ -5,7 +5,7 @@ A simple web application that extracts text from uploaded images using Optical C
 ---
 
 ## 🌐 Live Demo  
-Try the app live: **[Live Demo](https://image-to-text-gemini.streamlit.app/)**
+Try the app live: **[Live Demo](https://image-describer-ai.streamlit.app/)**
 
 ## 📸 Screenshots  
 See it in action: **[Screenshots](https://your-screenshots-link.example.com)**
