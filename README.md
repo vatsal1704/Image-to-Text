@@ -8,7 +8,11 @@ A simple web application that extracts text from uploaded images using Optical C
 Try the app live: **[Live Demo](https://image-describer-ai.streamlit.app/)**
 
 ## 📸 Screenshots  
-See it in action: **[Screenshots](https://your-screenshots-link.example.com)**
+<img width="1920" height="803" alt="Screenshot 2025-07-25 010106" src="https://github.com/user-attachments/assets/11af8a06-9020-4beb-bcd0-63e1f5d21adb" />
+
+
+<img width="1920" height="823" alt="Screenshot 2025-07-25 010147" src="https://github.com/user-attachments/assets/a19421b7-2b70-4d49-b234-33c051bcb37d" />
+
 
 ---
 
