@@ -1,65 +1,46 @@
-# 🖼️📷 Image-to-Text with Gemini
+# 🖼️ Image-to-Text Converter
 
-Transform any image into meaningful text using the powerful **Google Gemini Vision model**, integrated with a clean and simple **Streamlit** interface.
-
-## 🚀 Live Demo
-
-👉 [Try it Live on Streamlit!](https://image-to-text-gemini.streamlit.app/)  
-*(Replace the link above with your actual Streamlit Cloud app URL)*
-
-## 🖼️ App Screenshot
-
-![App Screenshot](https://raw.githubusercontent.com/your-username/your-repo/main/assets/screenshot.png)  
-*(Replace the link above with the correct path to your hosted image or repo image)*
+A simple web application that extracts text from uploaded images using Optical Character Recognition (OCR). Built with Python, Flask, OpenCV, and Tesseract OCR, it transforms images into editable text—perfect for scanning documents, signage, screenshots, and more.
 
 ---
 
-## 📌 Project Overview
+## 🌐 Live Demo  
+Try the app live: **[Live Demo](https://image-to-text-gemini.streamlit.app/)**
 
-This project allows users to:
-
-- Upload an image (`.jpg`, `.jpeg`, or `.png`)
-- Provide a custom prompt
-- Get a text-based description or analysis using **Google Gemini 1.5 Flash**
-
-The core idea is to combine the image processing capabilities of **Gemini Pro Vision** with the simplicity and interactivity of **Streamlit**.
+## 📸 Screenshots  
+See it in action: **[Screenshots](https://your-screenshots-link.example.com)**
 
 ---
 
-## 🧠 How It Works
+## 💡 Why Use It?
 
-1. **Image Upload**: Accepts standard image formats via Streamlit's uploader.
-2. **Prompt Input**: Users input a custom instruction or description prompt.
-3. **Gemini Processing**: The app sends both the image and prompt to Gemini’s multi-modal model.
-4. **Text Output**: Gemini returns a human-readable text response.
-
----
-
-## 🛠️ Tech Stack
-
-- [Streamlit](https://streamlit.io/) – UI and deployment
-- [Google Generative AI Python SDK](https://pypi.org/project/google-generativeai/) – API access to Gemini models
-- [Pillow (PIL)](https://pillow.readthedocs.io/) – Image processing
-- [dotenv](https://pypi.org/project/python-dotenv/) – Secure environment variable handling
+- **Document digitization** – Convert scanned pages, PDFs, or camera pics into searchable/editable text.  
+- **Image captioning & data entry** – Automatically extract text for populating forms, captions, or databases.  
+- **Accessibility** – Make image content accessible by converting embedded or scanned text into readable format.  
+- **Language learning & research** – Quickly extract quotes or paragraphs from images for translation or analysis.
 
 ---
 
-## 📦 Setup Instructions
+## 🛠️ Features
 
-### 🔐 Prerequisites
+- 🗂️ Upload PNG, JPEG, GIF images  
+- 🔧 Pre-process images using OpenCV (grayscale, thresholding)  
+- 📝 OCR using Tesseract (via `pytesseract`)  
+- 📋 Displays extracted text with an easy copy button  
+- ⚙️ Optionally customize language or preprocessing steps
 
-- Python 3.8+
-- A valid [Google AI Studio API Key](https://makersuite.google.com/app/apikey)
+---
 
-### 🧪 Installation
+## 🚀 Getting Started
+
+### Prerequisites
+
+Make sure you have:
+
+- Python 3.x  
+- [Tesseract OCR Engine](https://github.com/tesseract-ocr/tesseract) installed
 
 ```bash
-git clone https://github.com/your-username/image-to-text-gemini.git
-cd image-to-text-gemini
-
-# Create a virtual environment
-python -m venv venv
-source venv/bin/activate  # On Windows use `venv\Scripts\activate`
-
-# Install dependencies
-pip install -r requirements.txt
+# Install Tesseract on Ubuntu
+sudo apt update
+sudo apt install tesseract-ocr libtesseract-dev
