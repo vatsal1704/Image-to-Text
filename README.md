@@ -1,6 +1,6 @@
 # 🖼️ Image-to-Text Converter
 
-A simple web application that extracts text from uploaded images using Optical Character Recognition (OCR). Built with Python, Flask, OpenCV, and Tesseract OCR, it transforms images into editable text—perfect for scanning documents, signage, screenshots, and more.
+A simple web application that extracts text from uploaded images using Optical Character Recognition (OCR).It transforms images into editable text—perfect for scanning documents, signage, screenshots, and more.
 
 ---
 
